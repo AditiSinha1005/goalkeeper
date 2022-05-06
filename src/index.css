@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button:hover{
+  background-color: rgb(124, 196, 17);
+ 
+}
+button{
+  /* border-radius: 50px; */
+  background-color: rgb(176, 99, 176);
+  height:40px;
+  width:40px;
+  border-radius:30px;
+}
+/* .todostyle{
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+} */
+.cancel:hover{
+background-color:red;
+}
+.adi{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: solid;
+}
+.todo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.main{
+  background-color: rgb(99, 59, 137);
+  border-radius: 40px;
+  height:400px;
+  width: 400px;
+  
+}
+/* body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+} */
+ul{
+  list-style-type: none;
+}
+
+
+
